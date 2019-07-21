@@ -1,0 +1,44 @@
+{
+  "private": false,
+  "name": "@1amageek/currency.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc -d",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "description": "Web Payment Currency",
+  "contributors": [
+    {
+      "name": "Norikazu Muramoto",
+      "email": "tmy0x3@icloud.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1amageek/currency.ts.git"
+  },
+  "keywords": [
+    "stripe",
+    "currency",
+    "typescript"
+  ],
+  "author": "1amageek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1amageek/currency.ts/issues"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
+}
