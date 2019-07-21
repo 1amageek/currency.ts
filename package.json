@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@1amageek/currency.ts",
+  "name": "@1amageek/currency",
   "publishConfig": {
     "access": "public"
   },
