@@ -139,4 +139,4 @@ enum Currency {
 }
 
 
-export default { Currency }
+export { Currency }
